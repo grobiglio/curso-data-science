@@ -11,3 +11,7 @@ Predice los coeficientes de la ecuación que definimos como hipótesis, luego es
 ![ML-Steps](./figuras/machine-learning-steps.png)
 
 Otros términos con los que se suele hacer referencia a la función de costo o Cost Function: Loss Function, Error Function, Objective Function.
+
+En Machine Learning, la Función de Costo que se utiliza es el Error Medio Cuadrático (MSE - Mean Squared Error). Esta es una variante del residuo de la suma de los cuadrados, que provee una idea de la cantidad de muestras que mi hipótesis no es capaz de representar.
+
+![MSE](./figuras/MSE.png)
