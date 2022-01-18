@@ -40,3 +40,25 @@ En Machine Learning, la Función de Costo que se utiliza es el Error Medio Cuadr
 ![MSE](./figuras/MSE.png)
 
 Las variables ficticias (dummy variables) captan información binaria en los datasets.
+
+## Análisis de los residuos
+
+Cualquier patrón no aleatorio en los residuos indica que tenemos algún problema con nuestro modelo.
+
+Características de los resuduos :point_down:
+
+![Características](./figuras/residuos-3.png)
+
+Así es como NO me gustaría que se vean los residuos :point_down:
+
+![Malos residuos](./figuras/residuos-1.png)
+
+Posibles problemas/soluciones:
+* Considerar transformación de datos para un mejor ajuste
+* Se podría estar omitiendo algún _feature_ importante
+* Podría haber alguna interacción entre _features_
+* Los _features_ del modelo podrían no estar captando información que explique el fenómeno
+
+Así es como deberían verse los residuos :point_down:
+
+![Buenos residuos](./figuras/residuos-2.png)
