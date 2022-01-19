@@ -27,7 +27,9 @@ En la visualización de datos nos interesan dos cosas:
 * Distribución. Normalmente se aprecia con histogramas.
 * Valores atípicos (outliers)
 
-## ¿Cómo aprenden las computadoras?
+## Problemas de Regresión
+
+### ¿Cómo aprenden las computadoras?
 
 Predice los coeficientes de la ecuación que definimos como hipótesis, luego estima el error de predicción. Tener en cuenta que si nuestra hipótesis es errónea el problema no es de la computadora.
 
@@ -41,7 +43,7 @@ En Machine Learning, la Función de Costo que se utiliza es el Error Medio Cuadr
 
 Las variables ficticias (dummy variables) captan información binaria en los datasets.
 
-## Análisis de los residuos
+### Análisis de los residuos
 
 Cualquier patrón no aleatorio en los residuos indica que tenemos algún problema con nuestro modelo.
 
@@ -62,3 +64,24 @@ Posibles problemas/soluciones:
 Así es como deberían verse los residuos :point_down:
 
 ![Buenos residuos](./figuras/residuos-2.png)
+
+## Problemas de Clasificación
+
+Un problema típico es el de clasificar un correo electrónico como Spam / No Spam.
+
+Fuente de información para este problema de clasificación: [Apache Spam Assassin](https://spamassassin.apache.org/old/publiccorpus/)
+
+NOTA:
+
+[Corpus](https://en.wikipedia.org/wiki/Text_corpus): Conjunto de documentos.
+
+La **probabilidad condicional** es un asunto clave en Machine Learning.
+
+![Probabilidad Condicional](./figuras/probabilidad-condicional.png)
+
+El [Teorema de Bayes](https://en.wikipedia.org/wiki/Bayes'_theorem) es otro asunto clave en Machine Learning.
+
+![Teorema de Bayes](./figuras/teorema-bayes.png)
+
+El algoritmo de [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) para clasificar e-mails como spam asume independencia estadístiuca de cada palabra.
+
