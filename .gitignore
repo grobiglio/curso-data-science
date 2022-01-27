@@ -1,3 +1,5 @@
 *.pyc
 .ipynb_checkpoints
-SpamData
+spam_assassin_corpus
+wordcloud_resources
+.DS_Store
