@@ -85,3 +85,16 @@ El [Teorema de Bayes](https://en.wikipedia.org/wiki/Bayes'_theorem) es otro asun
 
 El algoritmo de [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) para clasificar e-mails como spam asume independencia estadístiuca de cada palabra.
 
+## Métricas para evaluación del algoritmo
+
+![Accuracy](./figuras/accuracy.PNG)
+
+Recall Score = Sensitivity
+
+![Recall](./figuras/recall.PNG)
+
+Precision = Exactness and Quality
+
+![Precision](./figuras/precision.PNG)
+
+![F-Score](./figuras/f-score.PNG)
